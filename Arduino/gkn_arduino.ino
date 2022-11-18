@@ -6,7 +6,6 @@ unsigned long delayTime=200;  // BELİRLENEN BEKLEME SÜRESİ.
 LiquidCrystal_I2C lcd(0x27, 16, 2);   
 //********************************
 
-
 int SER_Pin = 8;              // 74HC595 SHİFT REGİSTER PİNLERİNİ TANIMLIYORUZ.
 int RCLK_Pin = 9;             // 74HC595 SHİFT REGİSTER PİNLERİ TANIMLIYORUZ.
 int SRCLK_Pin = 10;           // 74HC55 SHİFT REGİSTER PİNLERİNİ TANIMLIYORUZ.
@@ -17,7 +16,6 @@ int N_gelen;
 boolean registers[numOfRegisterPins];            //REGİSTER DİZİSİ
 void setup(){                                    // AYARLARIMIZI BAŞLATIYORUZ. SETUP KISMINDA Kİ KODLAR PROGRAM BAŞLADIĞINDA SADECE BİR KERE ÇALIŞIR.
   Serial.begin(115200);                          // SERİ HABERLEŞMEYİ BAŞLATIYORUZ
-  
   
   //**************************************
   lcd.begin();
