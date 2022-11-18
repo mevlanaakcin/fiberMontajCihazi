@@ -79,7 +79,6 @@ lcd.setCursor(0,1);
 lcd.print(N_gelen);
 //***********************************************
 
-
 if(N_gelen==145){                            // EĞER N_GELEN 145 EŞİT İSE CİHAZ DOĞRULAMA KOMUTUNU ÇALIŞTIRIYORUZ KOMUT. 1. LEDDEN 30. LEDE KADAR SIRASIYLA YANAR.
       for(int i=0;i<=30;i++){                // FOR DÖNGÜSÜ SIRASIYLA 1. DEN 30 KADAR SAYIYOR.
         sweep_col(i);                        // REGİSTERA SIRASIYLA İ DEĞİŞKENİNİ GÖNDERİYORUZ.
